@@ -29,6 +29,18 @@ export const skills = [
 ];
 export const projects = [
   {
+    title: "Money Tracker App",
+    description: "Full-stack personal finance suite with React Native mobile app and Node.js backend. Features family collaboration, expense tracking, and background processing.",
+    github: "https://github.com/2009Dhinesh/Money-Tracker-App",
+    tags: ["React Native", "Node.js", "MongoDB", "Redis"]
+  },
+  {
+    title: "Tribal Product E-Commerce",
+    description: "Modern e-commerce platform for tribal handicrafts. Includes secure Razorpay integration, admin dashboard, and Cloudinary media management.",
+    github: "https://github.com/2009Dhinesh/Tribal-Product-frontend",
+    tags: ["React", "Node.js", "Razorpay", "E-Commerce"]
+  },
+  {
     title: "PacMen",
     description: "Interactive PacMan animation where characters bounce off screen edges.",
     image: "/project-pacmen.png",
