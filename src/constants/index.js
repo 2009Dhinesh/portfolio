@@ -29,11 +29,11 @@ export const skills = [
 ];
 export const projects = [
   {
-    title: "Fabric Admin Dashboard",
-    description: "Premium UI kit and admin dashboard built with React and Chakra UI. Features 70+ modular components, interactive ApexCharts analytics, and specialized layouts for CRM and IoT systems.",
+    title: "Fabric Process Management System",
+    description: "Full-stack industrial application designed to monitor, control, and calculate water usage costs during fabric processing in textile machines. Features machine-wise task flow and real-time process control.",
     image: "/project-fabric.png",
     github: "https://github.com/2009Dhinesh/Fabric",
-    tags: ["React", "Chakra UI", "Data Visualization", "Framer Motion"]
+    tags: ["React", "Chakra UI", "Full-Stack", "Industrial IoT"]
   },
   {
     title: "Money Tracker App",
