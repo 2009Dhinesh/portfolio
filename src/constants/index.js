@@ -1,0 +1,117 @@
+import { Github, Linkedin, Mail, Facebook, Instagram } from "lucide-react";
+export const personalInfo = {
+  name: "Dhinesh Waran P",
+  role: "Front-end Designer | Developer",
+  tagline: "My passion for software lies with dreaming up ideas and making them come true with elegant interfaces.",
+  email: "dwaranp@gmail.com",
+  phone: "+91-7010382383",
+  address: "M6HV+MRF, Gudalur, Tamil Nadu 625518",
+  socials: [
+    { name: "Github", icon: Github, url: "https://github.com/2009Dhinesh" },
+    { name: "Linkedin", icon: Linkedin, url: "https://in.linkedin.com/" },
+    { name: "Instagram", icon: Instagram, url: "https://www.instagram.com/" },
+    { name: "Facebook", icon: Facebook, url: "https://www.facebook.com/" },
+    { name: "Mail", icon: Mail, url: "mailto:dwaranp@gmail.com" }
+  ]
+};
+export const skills = [
+  { name: "HTML", level: 95, icon: "https://cdn.simpleicons.org/html5" },
+  { name: "CSS", level: 90, icon: "https://cdn.simpleicons.org/css" },
+  { name: "JavaScript", level: 85, icon: "https://cdn.simpleicons.org/javascript" },
+  { name: "React JS", level: 75, icon: "https://cdn.simpleicons.org/react" },
+  { name: "React Native", level: 75, icon: "https://cdn.simpleicons.org/expo" },
+  { name: "Node JS", level: 85, icon: "https://cdn.simpleicons.org/nodedotjs" },
+  { name: "UX Design", level: 85, icon: "https://cdn.simpleicons.org/framer" },
+  { name: "C Programming", level: 70, icon: "https://cdn.simpleicons.org/c" },
+  { name: "Python", level: 60, icon: "https://cdn.simpleicons.org/python" },
+  { name: "n8n", level: 85, icon: "https://cdn.simpleicons.org/n8n" },
+  { name: "Figma", level: 85, icon: "https://cdn.simpleicons.org/figma" }
+];
+export const projects = [
+  {
+    title: "PacMen",
+    description: "Interactive PacMan animation where characters bounce off screen edges.",
+    image: "/project-pacmen.png",
+    github: "https://github.com/2009Dhinesh/Pacmen",
+    demo: "https://2009dhinesh.github.io/Pacmen/",
+    tags: ["HTML", "JS", "Animation"]
+  },
+  {
+    title: "Eye Frame",
+    description: "Real-time eye tracking experiment that follows cursor movement.",
+    image: "/project-eye.png",
+    github: "https://github.com/2009Dhinesh/Eye-Frame",
+    demo: "https://2009dhinesh.github.io/Eye-Frame/",
+    tags: ["JS", "DOM", "Interaction"]
+  },
+  {
+    title: "Map Tracking",
+    description: "Real-time bus tracking simulation using Mapbox integration.",
+    image: "/project-map.png",
+    github: "https://github.com/2009Dhinesh/map-tricker",
+    demo: "https://2009dhinesh.github.io/map-tricker/",
+    tags: ["API", "Mapbox", "Async"]
+  },
+  {
+    title: "Tower",
+    description: "Tower of Hanoi visualization and solver.",
+    image: "/project-tower.png",
+    github: "https://github.com/2009Dhinesh/Tower",
+    demo: "https://2009dhinesh.github.io/Tower/",
+    tags: ["Algorithms", "Recursion"]
+  },
+  {
+    title: "Ball Moving",
+    description: "Physics-based ball movement simulation.",
+    github: "https://github.com/2009Dhinesh/Ball-Moving",
+    demo: "https://2009dhinesh.github.io/Ball-Moving/",
+    tags: ["Physics", "Canvas"]
+  },
+  {
+    title: "Top Earner",
+    description: "A project to visualize and list top earners efficiently.",
+    github: "https://github.com/2009Dhinesh/Top-Earner",
+    demo: "https://2009dhinesh.github.io/Top-Earner/",
+    tags: ["JS", "Data Visualiztion"]
+  },
+  {
+    title: "Word Count",
+    description: "Real-time word and character counting utility.",
+    github: "https://github.com/2009Dhinesh/Word-Count",
+    demo: "https://2009dhinesh.github.io/Word-Count/",
+    tags: ["JS", "String Manipulation"]
+  },
+  {
+    title: "Multiple Pacman",
+    description: "Advanced PacMan simulation with multiple characters and random movements.",
+    github: "https://github.com/2009Dhinesh/multi-pacman",
+    demo: "https://2009dhinesh.github.io/multi-pacman/",
+    tags: ["JS", "Simulation"]
+  }
+];
+export const education = [
+  {
+    degree: "Master of Computer Applications (MCA)",
+    school: "RVS College Of Arts And Science",
+    year: "2024 - Present",
+    score: "Pursuing"
+  },
+  {
+    degree: "B.Sc Computer Science",
+    school: "SVST Kongunad Arts And Science College",
+    year: "2021 - 2024",
+    score: "79%"
+  },
+  {
+    degree: "Higher Secondary School",
+    school: "N.S.K.P Her Sec School",
+    year: "2019 - 2021",
+    score: "71%"
+  },
+  {
+    degree: "Secondary School",
+    school: "N.S.K.P Her Sec School",
+    year: "2018 - 2019",
+    score: "69%"
+  }
+];
