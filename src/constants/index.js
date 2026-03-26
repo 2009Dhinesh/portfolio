@@ -31,12 +31,14 @@ export const projects = [
   {
     title: "Money Tracker App",
     description: "Full-stack personal finance suite with React Native mobile app and Node.js backend. Features family collaboration, expense tracking, and background processing.",
+    image: "/project-money.png",
     github: "https://github.com/2009Dhinesh/Money-Tracker-App",
     tags: ["React Native", "Node.js", "MongoDB", "Redis"]
   },
   {
     title: "Tribal Product E-Commerce",
     description: "Modern e-commerce platform for tribal handicrafts. Includes secure Razorpay integration, admin dashboard, and Cloudinary media management.",
+    image: "/project-tribal.png",
     github: "https://github.com/2009Dhinesh/Tribal-Product-frontend",
     tags: ["React", "Node.js", "Razorpay", "E-Commerce"]
   },
