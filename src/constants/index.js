@@ -36,6 +36,13 @@ export const projects = [
     tags: ["React", "Chakra UI", "Full-Stack", "Industrial IoT"]
   },
   {
+    title: "Campus Management System (Full-Stack)",
+    description: "End-to-end management platform featuring a React Native mobile app for students/staff and a robust Node.js/Express API. Includes role-based access, automated complaint tracking, and academic programme management.",
+    image: "/project-cms.png",
+    github: "https://github.com/2009Dhinesh/FrontEnd-CMS",
+    tags: ["React Native", "Node.js", "MongoDB", "JWT", "Express"]
+  },
+  {
     title: "Money Tracker App",
     description: "Full-stack personal finance suite with React Native mobile app and Node.js backend. Features family collaboration, expense tracking, and background processing.",
     image: "/project-money.png",
