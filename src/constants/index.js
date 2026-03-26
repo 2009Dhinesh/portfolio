@@ -122,7 +122,7 @@ export const education = [
     degree: "Master of Computer Applications (MCA)",
     school: "RVS College Of Arts And Science",
     year: "2024 - 2026",
-    score: "Pursuing"
+    score: "93.77"
   },
   {
     degree: "B.Sc Computer Science",
