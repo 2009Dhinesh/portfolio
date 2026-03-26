@@ -121,7 +121,7 @@ export const education = [
   {
     degree: "Master of Computer Applications (MCA)",
     school: "RVS College Of Arts And Science",
-    year: "2024 - Present",
+    year: "2024 - 2026",
     score: "Pursuing"
   },
   {
@@ -129,17 +129,27 @@ export const education = [
     school: "SVST Kongunad Arts And Science College",
     year: "2021 - 2024",
     score: "79%"
+  }
+];
+export const experiences = [
+  {
+    company: "Earestminds",
+    role: "React Developer (probation period)",
+    duration: "Jan 2026 - Present",
+    desc: [
+      "Specializing in Shopify theme development and storefront customization.",
+      "Optimizing web performance and user experience for e-commerce platforms.",
+      "Developing responsive and high-converting Shopify designs."
+    ]
   },
   {
-    degree: "Higher Secondary School",
-    school: "N.S.K.P Her Sec School",
-    year: "2019 - 2021",
-    score: "71%"
-  },
-  {
-    degree: "Secondary School",
-    school: "N.S.K.P Her Sec School",
-    year: "2018 - 2019",
-    score: "69%"
+    company: "Flareminds",
+    role: "MERN Stack Developer (Intern)",
+    duration: "Aug 2025 - Dec 2025",
+    desc: [
+      "Developed the backend for the 'Righttount' system ensuring robust data handling.",
+      "Implemented the frontend for the 'Fabric Process Management System' with a focus on real-time control.",
+      "Collaborated with the team to integrate full-stack features using MongoDB, Express, React, and Node.js."
+    ]
   }
 ];
